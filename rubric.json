@@ -1,0 +1,15 @@
+{
+  "threshold": 20,
+  "items": [
+    {"key": "advertiser_credibility", "label": "Advertiser Credibility", "min": 0, "max": 10},
+    {"key": "return_outcome_claims", "label": "Return & Outcome Claims", "min": 0, "max": 10},
+    {"key": "urgency_fear_tactics", "label": "Urgency and Fear Tactics", "min": 0, "max": 10},
+    {"key": "capitalization_frequency", "label": "Capitalization Frequency", "min": 0, "max": 5},
+    {"key": "emojis", "label": "Emojis", "min": 0, "max": 5},
+    {"key": "incorrect_spelling", "label": "Incorrect Spelling", "allowed": [0, 10]},
+    {"key": "information_inconsistency", "label": "Information Consistency Issue", "allowed": [0, 10]},
+    {"key": "link_legitimacy_issue", "label": "Link Legitimacy Issue", "allowed": [0, 10]},
+    {"key": "casual_tone", "label": "Casual Tone", "allowed": [0, 7]},
+    {"key": "selling_course", "label": "Selling a Course", "allowed": [0, 3]}
+  ]
+}
